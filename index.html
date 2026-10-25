@@ -259,28 +259,28 @@
                 </div>
 
                 <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 font-mono text-xs">
-                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1">
-                        <div class="text-gray-500 uppercase">Public IPv4 / IPv6</div>
-                        <div id="auditIp" class="text-base font-bold text-cyan-300">Scanning...</div>
+                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1 overflow-hidden">
+                        <div class="text-gray-500 uppercase text-[10px] sm:text-xs">Public IPv4 / IPv6</div>
+                        <div id="auditIp" class="text-xs sm:text-sm font-bold text-cyan-300 break-all leading-tight">Scanning...</div>
                         <div id="auditProtocol" class="text-[11px] text-gray-400">Encrypted HTTPS</div>
                     </div>
 
-                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1">
-                        <div class="text-gray-500 uppercase">ISP & Organization</div>
-                        <div id="auditIsp" class="text-base font-bold text-emerald-300">Detecting...</div>
-                        <div id="auditAsn" class="text-[11px] text-gray-400">Routing Node</div>
+                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1 overflow-hidden">
+                        <div class="text-gray-500 uppercase text-[10px] sm:text-xs">ISP & Organization</div>
+                        <div id="auditIsp" class="text-xs sm:text-sm font-bold text-emerald-300 truncate" title="">Detecting...</div>
+                        <div id="auditAsn" class="text-[11px] text-gray-400 truncate">Routing Node</div>
                     </div>
 
-                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1">
-                        <div class="text-gray-500 uppercase">Detected Location</div>
-                        <div id="auditLoc" class="text-base font-bold text-purple-300">Resolving...</div>
-                        <div id="auditTimezone" class="text-[11px] text-gray-400">Local Gateway</div>
+                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1 overflow-hidden">
+                        <div class="text-gray-500 uppercase text-[10px] sm:text-xs">Detected Location</div>
+                        <div id="auditLoc" class="text-xs sm:text-sm font-bold text-purple-300 truncate">Resolving...</div>
+                        <div id="auditTimezone" class="text-[11px] text-gray-400 truncate">Local Gateway</div>
                     </div>
 
-                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1">
-                        <div class="text-gray-500 uppercase">Browser Fingerprint</div>
-                        <div id="auditBrowser" class="text-base font-bold text-yellow-300">Analyzing...</div>
-                        <div id="auditScreen" class="text-[11px] text-gray-400">Screen & Platform</div>
+                    <div class="bg-black/50 border border-cyber-border rounded-xl p-4 space-y-1 overflow-hidden">
+                        <div class="text-gray-500 uppercase text-[10px] sm:text-xs">Browser Fingerprint</div>
+                        <div id="auditBrowser" class="text-xs sm:text-sm font-bold text-yellow-300 truncate">Analyzing...</div>
+                        <div id="auditScreen" class="text-[11px] text-gray-400 truncate">Screen & Platform</div>
                     </div>
                 </div>
             </section>
